@@ -22,6 +22,17 @@ h6 {
   font-weight: normal;
 }
 
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
 h1 {
   font-size: 40px;
   line-height: 1.5;
@@ -52,6 +63,7 @@ h1 strong {
   margin-bottom: 15px;
   padding: 20px;
   background-color: var(--color-white);
+  display: flex;
 }
 
 .project-details {
@@ -65,9 +77,26 @@ h1 strong {
 .header {
   background-color: var(--dark-gray);
   color: var(--color-white);
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header a {
   color: var(--color-white);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.header ol {
+  display: flex;
+}
+
+.header nav,
+.header ol,
+.header li,
+.header a {
+  height: inherit;
 }
