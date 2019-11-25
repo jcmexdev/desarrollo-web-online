@@ -5,7 +5,7 @@
   --color-white: #ffffff;
   --background-color: #1b2127;
   --background-blue: #f4fbff;
-  --text-blue: #026fff;
+  --text-blue: #056fff;
 }
 
 body {
@@ -197,4 +197,60 @@ h2 {
 
 .event-list-title {
   margin-left: 20px;
+}
+
+.contact {
+  background-color: var(--text-blue);
+  color: var(--color-white);
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-email input {
+  border-style: solid;
+  border-color: var(--dark-gray);
+  padding: 10px 20px 10px 25px;
+  background-image: url("../img/envelope.svg");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+  border-radius: 5px;
+}
+
+.form-email button {
+  display: block;
+  margin-top: 10px;
+  background: transparent;
+  color: var(--color-white);
+  border: 1px solid var(--color-white);
+  padding: 10px 0;
+  width: 100px;
+  margin: 10px auto;
+}
+
+.form-email h3 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0 20px;
+}
+.social-link.twitter {
+  background-image: url("../img/twitter.svg");
+}
+.social-link.facebook {
+  background-image: url("../img/facebook.svg");
+}
+.social-link.github {
+  background-image: url("../img/github.svg");
+}
+.social-link.instagram {
+  background-image: url("../img/instagram.svg");
 }
