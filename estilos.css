@@ -39,6 +39,11 @@ h1 strong {
   background-color: var(--dark-gray);
 }
 
+.project {
+    border: 1px solid var(--light-gray);
+    border-radius: 10px;
+}
+
 .project-details {
   width: 500px;
 }
