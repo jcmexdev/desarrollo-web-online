@@ -38,6 +38,7 @@ h1 {
   line-height: 1.5;
   letter-spacing: -0.2px;
   color: var(--color-white);
+  margin: 0;
 }
 h1 strong {
   color: var(--text-blue);
@@ -50,6 +51,8 @@ h1 strong {
   background-repeat: no-repeat;
   background-position-x: right;
   background-color: var(--dark-gray);
+  display: flex;
+  align-items: center;
 }
 
 .portfolio {
@@ -77,9 +80,10 @@ h1 strong {
 .header {
   background-color: var(--dark-gray);
   color: var(--color-white);
-  height: 90px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header a {
@@ -99,4 +103,21 @@ h1 strong {
 .header li,
 .header a {
   height: inherit;
+}
+
+.footer {
+  background-color: var(--dark-gray);
+  color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer img {
+  vertical-align: middle;
+}
+
+.footer a {
+  color: var(--color-white);
+  text-decoration: none;
 }
