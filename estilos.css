@@ -57,13 +57,17 @@ h2 {
 
 .hero {
   height: 300px;
-  background: url("https://via.placeholder.com/600x400");
+  /* background: url("https://via.placeholder.com/600x400");
   background-size: 500px 300px;
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position-x: right; */
   background-color: var(--dark-gray);
   display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+.hero-image {
+  object-fit: cover;
 }
 
 .portfolio {
@@ -83,7 +87,7 @@ h2 {
 }
 
 .project strong {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Fjalla One", sans-serif;
 }
 
 .project-details {
@@ -157,6 +161,7 @@ h2 {
 
 .event-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .event {
@@ -228,7 +233,7 @@ h2 {
   border: 1px solid var(--color-white);
   padding: 10px 0;
   width: 100px;
-  margin: 10px auto;
+  margin: 10px 0;
 }
 
 .form-email h3 {
@@ -253,4 +258,14 @@ h2 {
 }
 .social-link.instagram {
   background-image: url("../img/instagram.svg");
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
 }
