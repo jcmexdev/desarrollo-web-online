@@ -10,3 +10,4 @@ Puedes clonar o descargar el proyecto
 Gracias por considerar contribuir en este proyecto, cualquier mejora es bienvenida. 
 
 ## Licence 
+[LICENCE](https://github.com/jcmexdev/desarrollo-web-online/edit/master/README.md)
