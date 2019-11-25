@@ -4,6 +4,7 @@
   --light-gray: #fafafa;
   --color-white: #ffffff;
   --background-color: #1b2127;
+  --background-blue: #f4fbff;
   --text-blue: #026fff;
 }
 
@@ -152,4 +153,48 @@ h2 {
 .footer a {
   color: var(--color-white);
   text-decoration: none;
+}
+
+.event-list {
+  display: flex;
+}
+
+.event {
+  width: 480px;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-color: var(--background-blue);
+  text-align: center;
+}
+
+.event img {
+  width: 480;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-detail {
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: var(--color-white);
+  position: relative;
+  padding: 20px;
+}
+
+.event-description {
+  text-align: left;
+}
+
+.event-url {
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: var(--text-blue);
+  border-radius: 5px;
+}
+
+.event-list-title {
+  margin-left: 20px;
 }
