@@ -40,8 +40,18 @@ h1 {
   color: var(--color-white);
   margin: 0;
 }
+
 h1 strong {
   color: var(--text-blue);
+}
+
+h2 {
+  color: var(--text-blue);
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
 }
 
 .hero {
@@ -57,20 +67,42 @@ h1 strong {
 
 .portfolio {
   background-color: var(--light-gray);
+  padding: 20px;
 }
 
 .project {
   border: 1px solid var(--medium-gray);
   border-radius: 10px;
-  margin: 10px;
   margin-bottom: 15px;
   padding: 20px;
   background-color: var(--color-white);
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project strong {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .project-details {
   width: 500px;
+}
+
+.project-title {
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.project-course,
+.project-date,
+.project-url {
+  margin: 10px 0;
+}
+
+.project-description {
+  font-size: 20px;
 }
 
 .project-imageContainer {
